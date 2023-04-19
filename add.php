@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Management system</title>
+    
+	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <div class="ml-96 mt-66">
     <form action="addQuery.php" method="post" >
-		<table width="50%" border='0' >
+		<table class="w-12 bg-slate-400" >
 			<tr> 
-				<td>Name</td>
-				<td><input type="text" name="fname"></td>
+				<td class="p-2">Name</td>
+				<td class="p-2"><input type="text" name="fname" class="p-0.5"></td>
 			</tr>
 			<tr> 
-				<td>email</td>
-				<td><input type="email" name="email"></td>
+				<td class="p-2">email</td>
+				<td class="p-2"><input type="email" name="email" class="p-0.5"></td>
 			</tr>
 			<tr> 
-				<td>Phone_number</td>
-				<td><input type="number" name="phone_number"></td>
+				<td class="p-2">Phone_number</td>
+				<td class="p-2"><input type="number" name="phone_number" class="p-0.5"></td>
 			</tr>
 			<tr> 
-				<td></td>
-				<td><input type="submit" name="save" value="Add"></td>
+				<td class="p-2"></td>
+				<td class="p-2"><input type="submit" name="save" value="Add" class="bg-blue-500 w-28 ml-8 text-slate-50 font-semibold"></td>
 			</tr>
 		</table>
 	</form>
 
+	</div>
 
 </body>
 </html>

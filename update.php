@@ -18,6 +18,7 @@ $phone_number = $mysqliData['phone_number'];
 <html>
 <head>	
 	<title>Edit Data</title>
+	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
