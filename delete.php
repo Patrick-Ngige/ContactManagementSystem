@@ -10,3 +10,4 @@ $mysqli = mysqli_query($conn, "DELETE FROM address WHERE id = $id");
 
 // Redirect to the main display page 
 header("Location:index.php");
+?>
