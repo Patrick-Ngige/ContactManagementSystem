@@ -22,7 +22,7 @@ $phone_number = $mysqliData['phone_number'];
 </head>
 
 <body>
-	<div class="ml-96 mt-36 w-1/3 h-1/2 p-7  bg-slate-400 shadow-2xl rounded-md">
+	<div class="ml-96 mt-36 w-1/3 h-1/2 p-7 bg-gray-300 shadow-2xl rounded-md">
     <h2 class="p-2  font-bold text-xl ">Edit Data</h2>
 	<form name="edit" method="post" action="" class="p-2">
 		<table class="h-52">
