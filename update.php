@@ -28,7 +28,7 @@ $phone_number = $mysqliData['phone_number'];
 		<table class="h-52">
 			<tr > 
 				<td class="p-2 font-medium ">Name :</td>
-				<td><input type="text" name="fname" value="<?php echo $fname; ?>" class="p-1 rounded-sm"></td>
+				<td><input type="text" name="fname" value="<?php echo $fname; ?>" class="p-1 rounded-sm" required></td>
 			</tr>
 			<tr> 
 				<td class="p-2 font-medium ">Email :</td>
