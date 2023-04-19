@@ -18,7 +18,7 @@
 				<td class="p-2"><input type="email" name="email" class="p-0.5 rounded-sm"></td>
 			</tr>
 			<tr> 
-				<td class="p-2 font-medium ">Phone_number :</td>
+				<td class="p-2 font-medium ">Phone_number:</td>
 				<td class="p-2"><input type="number" name="phone_number" class="p-0.5 rounded-sm"></td>
 			</tr>
 			<tr> 

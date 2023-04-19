@@ -16,7 +16,7 @@ $mysqli = mysqli_query($conn, "SELECT * FROM address ORDER BY id DESC");
 	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body><div class="w-2/3 p-20 ml-48 mt-16   bg-gray-300 ">
+<body><div class="w-2/3 p-20 ml-48 mt-16   bg-gray-300 rounded-lg shadow-2xl ">
 	<h2 class="text-3xl font-bold text-center pb-8">Contact Management System</h2>
 	<p>
 		<a href="add.php" class="text-lg py-2 text-green-600 ml-20 font-bold p-3">Add Data</a>
